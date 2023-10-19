@@ -1,0 +1,12 @@
+#testselect{
+    align-self: flex-end;
+}
+
+#navbarNavAltMarkup{
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    max-width: 1500px;
+}

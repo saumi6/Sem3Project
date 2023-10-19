@@ -1,0 +1,56 @@
+.piechart { 
+    margin-top: 20px; 
+    display: block;  
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    background-image: conic-gradient( 
+        rgb(247, 39, 39) 18deg,    
+        rgb(52, 165, 52) 0); 
+} 
+
+body, 
+.piechart { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+
+#pieblock{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    Display: flex;
+    min-width: 100%;
+    margin: 10px;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+}
+.youratt{
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+.subjectwise{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subjects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 13%;
+}
+
+#DS{
+    background-color: yellow; !important
+}
